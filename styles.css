@@ -1,0 +1,40 @@
+html{
+    font-family: 'Darker Grotesque';
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    color: rgb(55, 110, 150);
+    font-size: 220px;
+}
+
+button{
+    background-color: transparent;
+    border: solid transparent;
+    font: 24px 'Darker Grotesque';
+    height: 60px;
+    width: auto;
+}
+button:hover {
+    color: rgb(55, 110, 150);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(55, 110, 150);;
+    text-align: center;
+}
