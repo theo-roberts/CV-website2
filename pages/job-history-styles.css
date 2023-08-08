@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.buttoncontainer{
+    display: flex;
+    margin-top: 160px;
+}
+
+.buttoncontainer button{
+    font-family: 'Darker Grotesque';
+    font-size: 32px;
+    border-style: solid;
+    border-color: rgb(80, 139, 177);
+    background-color: transparent;
+    width: 300px;
+    height: auto;
+    line-height: .1;
+    margin: auto;
+}
+
+.year {
+    font-size: 20px;
+}
+.moreinfo{
+    font-size: 13px;
+}
+
+.buttoncontainer button:hover{
+    background-color: rgb(80, 139, 177);
+    color: white;
+}
+
+#jobDescription{
+    width: 90%;
+    font-size: 24px;
+    font-family: 'Darker Grotesque';
+}
+
+.headerbuttons{
+    background-color: transparent;
+    border: solid transparent;
+    font: 24px 'Darker Grotesque';
+    height: 60px;
+    width: auto;
+}
+
+.headerbuttons:hover {
+    color: rgb(55, 110, 150);
+}
+
